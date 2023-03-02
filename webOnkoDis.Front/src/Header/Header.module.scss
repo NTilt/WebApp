@@ -1,0 +1,109 @@
+.header {
+    width: 1600px;
+    margin: 40px auto 0 auto;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    left: 0;
+    &_header div {
+        margin-right: 20px;
+    }
+    &_header_ul {
+        padding: 0;
+        margin: 0;
+        width: 600px;
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+    }
+
+    &_link{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 150%;
+        color: #0C424F;
+        transition: 0.5s;
+        text-decoration: none;
+        user-select: none;
+    }
+    &_main_info_header {
+        align-items: center;
+        text-transform: uppercase;
+    }
+    &_main_info_header_text {
+        font-family: 'RoadRadio';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 42px;
+        line-height: 125%;
+        color: #0C424F;
+        text-align: center;
+        padding-top: 60px;
+    }
+    &_logo_icon {
+        min-height: 80px;
+        width: 247px;
+        margin-right: 86px;
+        user-select: none;
+        cursor: pointer;
+    }
+    &_logo_find {
+        margin-right: 60px;
+        width: 32px;
+        min-height: 32px;
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+    &_logo_eye {
+        margin-left: 69px;
+        width: 32px;
+        min-height: 22px;
+        background-repeat: no-repeat;
+        margin-right: 35px;
+        cursor: pointer;
+    }
+    &_contactsBlock{
+        display: flex;
+        flex-direction: column;
+        height: 56px;
+        justify-content: space-between;
+        margin-right: 41px;
+        &_phone{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: right;
+            text-transform: uppercase;
+            color: #0C424F;
+            margin: 0;
+        }
+        &_mail{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 24px;
+            text-align: right;
+            color: #C4413A;
+            margin: 0;
+        }
+    }
+}
+
+a:hover{
+    color: #C4413A;
+    transition: 0.5s;
+}
+
+.selected {
+    color: #C4413A;
+}

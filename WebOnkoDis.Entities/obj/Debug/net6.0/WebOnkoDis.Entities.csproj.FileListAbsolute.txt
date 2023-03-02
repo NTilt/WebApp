@@ -1,0 +1,12 @@
+E:\WebOnkoDis\WebOnkoDis.Entities\bin\Debug\net6.0\WebOnkoDis.Entities.deps.json
+E:\WebOnkoDis\WebOnkoDis.Entities\bin\Debug\net6.0\WebOnkoDis.Entities.dll
+E:\WebOnkoDis\WebOnkoDis.Entities\bin\Debug\net6.0\WebOnkoDis.Entities.pdb
+E:\WebOnkoDis\WebOnkoDis.Entities\obj\Debug\net6.0\WebOnkoDis.Entities.csproj.AssemblyReference.cache
+E:\WebOnkoDis\WebOnkoDis.Entities\obj\Debug\net6.0\WebOnkoDis.Entities.GeneratedMSBuildEditorConfig.editorconfig
+E:\WebOnkoDis\WebOnkoDis.Entities\obj\Debug\net6.0\WebOnkoDis.Entities.AssemblyInfoInputs.cache
+E:\WebOnkoDis\WebOnkoDis.Entities\obj\Debug\net6.0\WebOnkoDis.Entities.AssemblyInfo.cs
+E:\WebOnkoDis\WebOnkoDis.Entities\obj\Debug\net6.0\WebOnkoDis.Entities.csproj.CoreCompileInputs.cache
+E:\WebOnkoDis\WebOnkoDis.Entities\obj\Debug\net6.0\WebOnkoDis.Entities.dll
+E:\WebOnkoDis\WebOnkoDis.Entities\obj\Debug\net6.0\refint\WebOnkoDis.Entities.dll
+E:\WebOnkoDis\WebOnkoDis.Entities\obj\Debug\net6.0\WebOnkoDis.Entities.pdb
+E:\WebOnkoDis\WebOnkoDis.Entities\obj\Debug\net6.0\ref\WebOnkoDis.Entities.dll

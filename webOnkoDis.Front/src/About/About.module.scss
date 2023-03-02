@@ -1,0 +1,88 @@
+.photo_doctor_sec {
+    min-width: 620px;
+    min-height: 650px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: red;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+
+
+.about {
+    display: flex;
+    margin: 0px auto;
+    margin-top: 170px;
+    width: 83%;
+    max-height: 650px;
+
+    &_list {
+        min-width: 24%;
+        padding-right: 10px;
+
+        &_info {
+            padding: 0;
+            list-style: none;
+
+            li:hover {
+                color: red;
+            }
+             
+
+            li {
+                color: #0C424F; 
+                margin-bottom: 20px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 140%;
+            }
+        }
+    }
+    &_info {
+        color: #0C424F;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        min-width: 36%;
+        margin-right: 20px;
+        overflow-y: scroll;
+        width: 490px;
+        height: 576px;
+        
+        p {
+            color: #444444;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            min-width: 25%;
+            padding-right: 20px;
+            overflow: scroll;
+        }
+
+        h2 {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 130%;
+            color: #0C424F;
+        }
+    }
+}
+
+.selected {
+    color: red !important;
+}
+
+
+
+
+
+
+
+

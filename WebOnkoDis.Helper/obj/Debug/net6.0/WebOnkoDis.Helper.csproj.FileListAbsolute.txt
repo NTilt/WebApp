@@ -1,0 +1,12 @@
+E:\WebOnkoDis\WebOnkoDis.Helper\bin\Debug\net6.0\WebOnkoDis.Helper.deps.json
+E:\WebOnkoDis\WebOnkoDis.Helper\bin\Debug\net6.0\WebOnkoDis.Helper.dll
+E:\WebOnkoDis\WebOnkoDis.Helper\bin\Debug\net6.0\WebOnkoDis.Helper.pdb
+E:\WebOnkoDis\WebOnkoDis.Helper\obj\Debug\net6.0\WebOnkoDis.Helper.csproj.AssemblyReference.cache
+E:\WebOnkoDis\WebOnkoDis.Helper\obj\Debug\net6.0\WebOnkoDis.Helper.GeneratedMSBuildEditorConfig.editorconfig
+E:\WebOnkoDis\WebOnkoDis.Helper\obj\Debug\net6.0\WebOnkoDis.Helper.AssemblyInfoInputs.cache
+E:\WebOnkoDis\WebOnkoDis.Helper\obj\Debug\net6.0\WebOnkoDis.Helper.AssemblyInfo.cs
+E:\WebOnkoDis\WebOnkoDis.Helper\obj\Debug\net6.0\WebOnkoDis.Helper.csproj.CoreCompileInputs.cache
+E:\WebOnkoDis\WebOnkoDis.Helper\obj\Debug\net6.0\WebOnkoDis.Helper.dll
+E:\WebOnkoDis\WebOnkoDis.Helper\obj\Debug\net6.0\refint\WebOnkoDis.Helper.dll
+E:\WebOnkoDis\WebOnkoDis.Helper\obj\Debug\net6.0\WebOnkoDis.Helper.pdb
+E:\WebOnkoDis\WebOnkoDis.Helper\obj\Debug\net6.0\ref\WebOnkoDis.Helper.dll

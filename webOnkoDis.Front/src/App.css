@@ -1,0 +1,362 @@
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    src: url('../public/fonts/Montserrat-Bold.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    src: url('../public/fonts/Montserrat-Medium.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "RoadRadio";
+    font-style: normal;
+    font-weight: 900;
+    src: url('../public/fonts/roadradio_bold.otf') format("truetype");
+}
+
+#section1 {
+    color: #fff;
+  }
+  
+
+body {
+    box-sizing: border-box;
+    background-color: #ebebeb !important;
+}
+
+.content {
+    width: 100%;
+    justify-self: center;
+    margin-top: 80px;
+}
+
+.logo_icon {
+    min-height: 80px;
+    width: 247px;
+}
+
+.header_ul li{
+    display: inline;
+    margin-right: 50px;
+}
+
+.header_ul li a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #0C424F;
+}
+
+.logo_find {
+    margin-left: 10px;
+    width: 32px;
+    min-height: 32px;
+    background-repeat: no-repeat;
+}
+
+.logo_eye {
+    margin-left: 10px;
+    width: 32px;
+    min-height: 24px;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+.data{
+    background-color: #ffffff;
+    color: black;
+    margin: 10px 0;
+    height: 30px;
+    width: 500px;
+    font-size: 20px;
+    outline: none;
+    padding: 10px 15px;
+    user-select: none;
+    border:none;
+    border-bottom:1px solid #0C424F;
+ }
+
+.enroll {
+    gap: 16px;
+    border: 0px;
+    width: 233px;
+    min-height: 56px;
+    transition: 0.5s;
+    background-color: #C4413A;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+}
+
+.enroll:hover {
+    background-color: #9c302a;
+    transition: 0.5s;
+}
+
+.phone {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #0C424F;
+}
+
+.mail {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right;
+    color: #C4413A;
+}
+
+.icons {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    margin-top: 40px;
+    min-width: 1600px;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header div {
+    margin-right: 20px;
+}
+
+
+
+
+/*for patients*/
+
+.patients {
+    display: flex;
+    margin: 0px auto;
+    margin-top: 50px;
+    width: 70%;
+    max-height: 650px;
+}
+
+.photo_doctor {
+    min-width: 620px;
+    min-height: 685px;
+    background-repeat: no-repeat;
+}
+
+.onko_service {
+    min-width: 20%;
+    padding-right: 10px;
+}
+
+.onko_info {
+    padding: 0;
+    list-style: none; 
+}
+
+.rev_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.onko_info li {
+    color: #0C424F; 
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 140%;
+}
+
+.onko_main_info {
+    color: #0C424F;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    min-width: 25%;
+    padding-right: 20px;
+    overflow-y: scroll;
+    width: 490px;
+    height: 576px;
+}
+.onko_main_info p {
+    color: #444444;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    min-width: 25%;
+    padding-right: 20px;
+    overflow: scroll;
+}
+
+/*about*/
+
+
+/*reviews*/
+
+.mt-10 {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*doctors*/
+.doctors {
+    margin: 0 auto;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.doctors_info {
+    display: flex;
+    align-items: center;
+}
+
+.info_find_input{
+    margin-left: 40px;
+    background-color: #ebebeb;
+    height: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #444444;
+    border-bottom:1px solid #0C424F !important;
+}
+
+.d_h{
+    width: 85%;
+}
+
+.d_t{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #444444;
+}
+
+.doctors_info_find{
+    display: flex;
+    align-items: center;
+}
+
+.doctor_ul {
+    display: flex;
+    text-decoration: none;
+    margin: 0px;
+
+}
+
+.doctor_ul li{
+    display: flex;
+    margin-right: 10px;
+    border: 1px solid #C4413A;
+    color: #C4413A;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+}
+
+.doctor_ul li:hover{
+    background-color:  #C4413A;
+    transition: 0.5s;
+    color: white;
+}
+
+.doctor_ul li a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    transition: 0.5s;
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.doctors_items {
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    padding: 15px 50px 50px 50px;
+}
+
+.doctors_item {
+    max-width: 410px;
+    min-height: 620px;
+    background-color: white;
+}
+
+.pad {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 44px 40px 44px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #444444;
+    min-width: 350px;
+}
+
+.dj{
+    display: flex;
+    justify-content: center;
+}
+
+.doctor_photo {
+    justify-content: center;
+    width: 290px;
+    height: 290px;
+    background-repeat: no-repeat;
+}
+
+.red_line {
+    width: 60px;
+    height: 4px;
+    background-color: #C4413A;
+    margin-bottom: 5px;
+}
+
+.name_style {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #0C424F;
+}

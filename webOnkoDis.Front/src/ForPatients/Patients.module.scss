@@ -1,0 +1,92 @@
+.photo_doctor {
+    min-width: 620px;
+    min-height: 650px;
+    background-repeat: no-repeat;
+}
+
+::-webkit-scrollbar {
+    width: 10px !important;
+    height: 10px !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: red;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+
+
+.patients {
+    display: flex;
+    margin: 0px auto;
+    margin-top: 170px;
+    width: 83%;
+    max-height: 650px;
+
+    &_list {
+        min-width: 26%;
+        padding-right: 10px;
+
+        &_info {
+            padding: 0;
+            list-style: none;
+
+            li:hover {
+                color: red;
+            }
+             
+
+            li {
+                color: #0C424F; 
+                margin-bottom: 20px;
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 140%;
+            }
+        }
+    }
+    &_info {
+        color: #0C424F;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        min-width: 34%;
+        margin-right: 20px;
+        overflow-y: scroll;
+        width: 490px;
+        height: 576px;
+
+        h2 {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 130%;
+            color: #0C424F; 
+            margin-bottom: 30px;
+        }
+       
+        
+        p {
+            color: #444444;
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 500;
+            min-width: 25%;
+            padding-right: 20px;
+            overflow: scroll;
+        }
+    }
+}
+
+.selected {
+    color: red !important;
+}
+
+
+
+
+
+

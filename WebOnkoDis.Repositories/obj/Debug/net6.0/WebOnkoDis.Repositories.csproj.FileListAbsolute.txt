@@ -1,0 +1,17 @@
+E:\WebOnkoDis\WebOnkoDis.Repositories\bin\Debug\net6.0\WebOnkoDis.Repositories.deps.json
+E:\WebOnkoDis\WebOnkoDis.Repositories\bin\Debug\net6.0\WebOnkoDis.Repositories.dll
+E:\WebOnkoDis\WebOnkoDis.Repositories\bin\Debug\net6.0\WebOnkoDis.Repositories.pdb
+E:\WebOnkoDis\WebOnkoDis.Repositories\bin\Debug\net6.0\WebOnkoDis.Entities.dll
+E:\WebOnkoDis\WebOnkoDis.Repositories\bin\Debug\net6.0\WebOnkoDis.Helper.dll
+E:\WebOnkoDis\WebOnkoDis.Repositories\bin\Debug\net6.0\WebOnkoDis.Entities.pdb
+E:\WebOnkoDis\WebOnkoDis.Repositories\bin\Debug\net6.0\WebOnkoDis.Helper.pdb
+E:\WebOnkoDis\WebOnkoDis.Repositories\obj\Debug\net6.0\WebOnkoDis.Repositories.csproj.AssemblyReference.cache
+E:\WebOnkoDis\WebOnkoDis.Repositories\obj\Debug\net6.0\WebOnkoDis.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+E:\WebOnkoDis\WebOnkoDis.Repositories\obj\Debug\net6.0\WebOnkoDis.Repositories.AssemblyInfoInputs.cache
+E:\WebOnkoDis\WebOnkoDis.Repositories\obj\Debug\net6.0\WebOnkoDis.Repositories.AssemblyInfo.cs
+E:\WebOnkoDis\WebOnkoDis.Repositories\obj\Debug\net6.0\WebOnkoDis.Repositories.csproj.CoreCompileInputs.cache
+E:\WebOnkoDis\WebOnkoDis.Repositories\obj\Debug\net6.0\WebOnkoDis.Repositories.csproj.CopyComplete
+E:\WebOnkoDis\WebOnkoDis.Repositories\obj\Debug\net6.0\WebOnkoDis.Repositories.dll
+E:\WebOnkoDis\WebOnkoDis.Repositories\obj\Debug\net6.0\refint\WebOnkoDis.Repositories.dll
+E:\WebOnkoDis\WebOnkoDis.Repositories\obj\Debug\net6.0\WebOnkoDis.Repositories.pdb
+E:\WebOnkoDis\WebOnkoDis.Repositories\obj\Debug\net6.0\ref\WebOnkoDis.Repositories.dll

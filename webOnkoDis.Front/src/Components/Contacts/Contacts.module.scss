@@ -1,0 +1,132 @@
+.contacts {
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 170px;
+    margin-bottom: 60px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    &_info {
+        min-width: 497px;
+        min-height: 500px;
+        display: flex;
+        flex-direction: column;
+
+        p {
+            margin-top: 10px;
+        }
+    }
+}
+
+.arrow_left {
+    margin-right: 20px;           
+    cursor: pointer;
+}
+
+.arrow_right {
+    margin-right: 20px; 
+    cursor: pointer;          
+}
+
+.icons {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    
+    &_left {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    &_right {
+        display: flex;
+        align-items: center;
+        float: right;
+    }
+}
+
+.red_line {
+    min-height: 8px;
+    width: 120px; 
+}
+
+.redline_new {
+    min-height: 25px;
+    display:flex;
+    align-items:center;
+}
+
+
+.info {
+    padding-top: 20px;
+    padding-left: 20px;
+
+    p {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 130%;
+        /* or 23px */
+
+
+        color: #0C424F;
+    }
+
+    h2:hover {
+        color: red;
+        transition: 0.5s;
+    }
+
+    h2 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        transition: 0.5s;
+        color: #111111;
+    }
+
+    
+}
+
+.map {
+    background-image: url(../../map.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+}
+
+.photo {
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+}
+
+
+.logo_vk:hover {
+    background: url('../../vk_dark.png');
+}
+
+.logo_tg {
+    width: 24px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.logo_vk {
+    width: 24px;
+    height: 14px;
+    margin-right: 20px;
+}
+
+.logo_yt {
+    width: 24px;
+    height: 17px;
+    margin-right: 100px;
+}

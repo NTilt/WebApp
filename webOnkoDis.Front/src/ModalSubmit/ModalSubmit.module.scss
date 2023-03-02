@@ -1,0 +1,115 @@
+.model {
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.container {
+    margin:62px 160px 160px 160px;
+
+    &_header{
+        display: flex;
+        justify-content: space-between;
+        
+        &_left{
+            font-family: 'RoadRadio';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 52px;
+            line-height: 125%;
+            color: #0C424F;
+        }
+
+        &_right{
+            float: _right;
+
+            &_close{
+                width: 56px;
+                height: 56px;
+                border: 1px solid #C4413A;
+                color: #C4413A;
+                background-color: white;
+            }
+
+            &_close:hover{
+                color:white;
+                background-color: #C4413A;
+            }
+        }
+    }
+
+    &_form {
+        margin-top: 75px;
+    }
+}
+
+.submit {
+    background-color: #C4413A;
+    width: 507px;
+    height: 56px;
+    margin-right: 50px;
+    color: #FFFFFF;
+    border: 1px solid red;
+}
+
+.submit:hover{
+    background-color: #9e342f;
+}
+
+.file{
+    border: 1px dashed;
+    background-color: white;
+    width: 507px;
+    height: 56px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+.file:hover{
+background-color: rgb(243, 243, 243);
+}
+
+.checkInp {
+    margin-right: 20px;
+    width: 24px;
+    height:24px;
+}
+
+.checkDiv{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.form__error {
+    color: red;
+    text-align: left;
+    font-size: 12px;
+    display: block;
+    margin-top: 1px;
+    display: none;
+}
+
+.dm {
+    margin-bottom: 90px;
+}
+
+.redline{
+    margin-top: 20px;
+    width: 120px;
+    height: 8px;
+    background-color: #C4413A;;
+}
+
+input:invalid:not(:placeholder-shown) {
+border-color: red;
+}
+input:invalid:not(:placeholder-shown) + .form__error {
+display: block;
+}

@@ -1,0 +1,322 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\WebOnkoDis\\WebOnkoDis.Back\\WebOnkoDis.Back.csproj": {}
+  },
+  "projects": {
+    "E:\\WebOnkoDis\\WebOnkoDis.Back\\WebOnkoDis.Back.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\WebOnkoDis\\WebOnkoDis.Back\\WebOnkoDis.Back.csproj",
+        "projectName": "WebOnkoDis.Back",
+        "projectPath": "E:\\WebOnkoDis\\WebOnkoDis.Back\\WebOnkoDis.Back.csproj",
+        "packagesPath": "C:\\Users\\offic\\.nuget\\packages\\",
+        "outputPath": "E:\\WebOnkoDis\\WebOnkoDis.Back\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\offic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\WebOnkoDis\\WebOnkoDis.Helper\\WebOnkoDis.Helper.csproj": {
+                "projectPath": "E:\\WebOnkoDis\\WebOnkoDis.Helper\\WebOnkoDis.Helper.csproj"
+              },
+              "E:\\WebOnkoDis\\WebOnkoDis.Repositories\\WebOnkoDis.Repositories.csproj": {
+                "projectPath": "E:\\WebOnkoDis\\WebOnkoDis.Repositories\\WebOnkoDis.Repositories.csproj"
+              },
+              "E:\\WebOnkoDis\\WebOnkoDis.Services\\WebOnkoDis.Services.csproj": {
+                "projectPath": "E:\\WebOnkoDis\\WebOnkoDis.Services\\WebOnkoDis.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.15.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.309\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\WebOnkoDis\\WebOnkoDis.Entities\\WebOnkoDis.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\WebOnkoDis\\WebOnkoDis.Entities\\WebOnkoDis.Entities.csproj",
+        "projectName": "WebOnkoDis.Entities",
+        "projectPath": "E:\\WebOnkoDis\\WebOnkoDis.Entities\\WebOnkoDis.Entities.csproj",
+        "packagesPath": "C:\\Users\\offic\\.nuget\\packages\\",
+        "outputPath": "E:\\WebOnkoDis\\WebOnkoDis.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\offic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.309\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\WebOnkoDis\\WebOnkoDis.Helper\\WebOnkoDis.Helper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\WebOnkoDis\\WebOnkoDis.Helper\\WebOnkoDis.Helper.csproj",
+        "projectName": "WebOnkoDis.Helper",
+        "projectPath": "E:\\WebOnkoDis\\WebOnkoDis.Helper\\WebOnkoDis.Helper.csproj",
+        "packagesPath": "C:\\Users\\offic\\.nuget\\packages\\",
+        "outputPath": "E:\\WebOnkoDis\\WebOnkoDis.Helper\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\offic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.309\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\WebOnkoDis\\WebOnkoDis.Repositories\\WebOnkoDis.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\WebOnkoDis\\WebOnkoDis.Repositories\\WebOnkoDis.Repositories.csproj",
+        "projectName": "WebOnkoDis.Repositories",
+        "projectPath": "E:\\WebOnkoDis\\WebOnkoDis.Repositories\\WebOnkoDis.Repositories.csproj",
+        "packagesPath": "C:\\Users\\offic\\.nuget\\packages\\",
+        "outputPath": "E:\\WebOnkoDis\\WebOnkoDis.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\offic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\WebOnkoDis\\WebOnkoDis.Entities\\WebOnkoDis.Entities.csproj": {
+                "projectPath": "E:\\WebOnkoDis\\WebOnkoDis.Entities\\WebOnkoDis.Entities.csproj"
+              },
+              "E:\\WebOnkoDis\\WebOnkoDis.Helper\\WebOnkoDis.Helper.csproj": {
+                "projectPath": "E:\\WebOnkoDis\\WebOnkoDis.Helper\\WebOnkoDis.Helper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.309\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\WebOnkoDis\\WebOnkoDis.Services\\WebOnkoDis.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\WebOnkoDis\\WebOnkoDis.Services\\WebOnkoDis.Services.csproj",
+        "projectName": "WebOnkoDis.Services",
+        "projectPath": "E:\\WebOnkoDis\\WebOnkoDis.Services\\WebOnkoDis.Services.csproj",
+        "packagesPath": "C:\\Users\\offic\\.nuget\\packages\\",
+        "outputPath": "E:\\WebOnkoDis\\WebOnkoDis.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\offic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\WebOnkoDis\\WebOnkoDis.Repositories\\WebOnkoDis.Repositories.csproj": {
+                "projectPath": "E:\\WebOnkoDis\\WebOnkoDis.Repositories\\WebOnkoDis.Repositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.309\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

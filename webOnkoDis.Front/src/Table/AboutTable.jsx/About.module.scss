@@ -1,0 +1,99 @@
+.container{
+    width: 100%;
+    max-height: 600px;
+    overflow: scroll;
+    .table {
+        width: 100%;
+        max-height: 20px;
+        margin-bottom: 20px;
+        border: 15px solid #F2F8F8;
+        border-top: 5px solid #F2F8F8;
+        border-collapse: collapse;
+        
+        th {
+            font-weight: bold;
+            padding: 5px;
+            background: #F2F8F8;
+            border: none;
+            border-bottom: 5px solid #F2F8F8;
+            text-align: center;
+        }
+        td {
+            max-height: 15px;
+            padding: 5px;
+            border: none;
+            border-bottom: 5px solid #F2F8F8;
+        }
+
+        tr {
+            text-align: center;
+            .custom_btn {
+                width: 130px;
+                height: 30px;
+                color: #fff;
+                margin-right: 5px;
+                border-radius: 5px;
+                font-family: 'Lato', sans-serif;
+                font-weight: 500;
+                background: transparent;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                position: relative;
+                display: inline-block;
+                box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+                outline: none;
+            }
+            
+            .btn_2 {
+                background: rgb(225, 9, 240);
+                background: linear-gradient(0deg, rgb(209, 9, 240) 0%, rgb(216, 5, 240) 100%);
+                border: none;
+                &:before {
+                    height: 0%;
+                    width: 2px;
+                }
+                &:hover {
+                    box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5), -4px -4px 6px 0 rgba(116, 125, 136, .5), inset -4px -4px 6px 0 rgba(255,255,255,.2), inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+                }
+            }
+        }
+    }
+
+    .last_td {
+        max-width: 110px;
+    }
+}
+
+.text_box {
+    margin-bottom: 10px;
+}
+
+.custom_btn {
+    width: 130px;
+    height: 30px;
+    color: #fff;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1), 4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+}
+
+.btn_2 {
+    background: rgb(225, 9, 240);
+    background: linear-gradient(0deg, rgb(209, 9, 240) 0%, rgb(216, 5, 240) 100%);
+    border: none;
+    &:before {
+        height: 0%;
+        width: 2px;
+    }
+    &:hover {
+        box-shadow: 4px 4px 6px 0 rgba(255,255,255,.5), -4px -4px 6px 0 rgba(116, 125, 136, .5), inset -4px -4px 6px 0 rgba(255,255,255,.2), inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+    }
+}

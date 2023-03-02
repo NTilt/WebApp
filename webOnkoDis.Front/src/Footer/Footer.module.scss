@@ -1,0 +1,66 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height:100px;
+    width:100%;
+    padding-top: 50px;
+    position: fixed;
+    margin-bottom: 40px;
+    left: 0;
+    bottom: 0;
+    p {
+        margin: auto;
+    }
+    &_footer_left {
+        padding-left: 150px;
+        display: flex;
+        float: left;
+        align-items: center;
+
+        p {
+            margin-right: 20px;
+        }
+    }
+
+    &_footer_right {
+        padding-right: 150px;
+        display: flex;
+        float: right;
+        align-items: center;
+
+        &_name {
+            margin-right: 10px;
+        }
+    }
+}
+
+
+.logo_tg {
+    width: 24px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.logo_vk {
+    width: 24px;
+    height: 14px;
+    margin-right: 20px;
+}
+
+.logo_yt {
+    width: 24px;
+    height: 17px;
+    margin-right: 100px;
+}
+
+.red_text{
+    color: #C4413A;
+}
+
+.logo_spaceapp {
+    width: 45.6px;
+    height: 36px;
+    margin-left: 40px;
+    margin-right: 60px;
+}
